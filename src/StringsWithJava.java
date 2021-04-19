@@ -10,6 +10,7 @@ public class StringsWithJava {
         // Or
         String aj = "Hey bro " + "Give me your jacket, I'm Freezing";
         System.out.println(aj);
+
         // Using String members and methods with . operator
         // For ex.
         System.out.println(message+greeting.endsWith("?"));
@@ -17,6 +18,9 @@ public class StringsWithJava {
         System.out.println(message+greeting.length());
         System.out.println(message+greeting.indexOf("a"));
         System.out.println(message+greeting.replace("a", "o"));
+        System.out.println(message+greeting.toLowerCase());
+        System.out.println(message+greeting.toUpperCase());
+        System.out.println(message+greeting.trim());
     }
 }
 
@@ -27,3 +31,6 @@ public class StringsWithJava {
 
 // Since String is a class it has members we can access through the . operator
 // Using those members we can access all of the methods that come with it
+
+// Strings in Java are immutable (They can not be modified ever)
+// Any method that mutates a string will always return a NEW string object
