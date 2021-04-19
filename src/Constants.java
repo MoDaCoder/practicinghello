@@ -3,6 +3,7 @@ public class Constants {
         // Use final to create a constant variable (Variable that can not be changed)
         final float PI = 3.14F;
         // PI = 1; Can't change the variable because it's a constant
+        System.out.println(PI);
     }
 }
 
