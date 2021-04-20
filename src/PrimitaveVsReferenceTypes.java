@@ -6,6 +6,7 @@ public class PrimitaveVsReferenceTypes {
         byte x = 1;
         byte y = 1;
         x = 2;
+        System.out.println(x); // Ignore this line. Wrote it just to get rid of error... It was killing me.
         System.out.println(y);
 
         // Reference Types ex
