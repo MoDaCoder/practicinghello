@@ -6,7 +6,7 @@ public class AMortgageCalculator {
     //NOTE: But trade off more lines of code
     
     Scanner sc = new Scanner(System.in);
-    
+
     System.out.print("Enter Principal: ");
     Float principal = sc.nextFloat();
 
@@ -18,9 +18,11 @@ public class AMortgageCalculator {
     Float numberofyears = sc.nextFloat();
     float n = numberofyears * 12;
 
+    sc.close();
+    
     double mortgage = principal * (r * Math.pow((1 + r), n) / (Math.pow((1 + r), n) - 1));
     // System.out.println("Your Mortgage is: " +mortgage);
-    System.out.printf("Your Mortgage is: %.2f", +mortgage);
+    System.out.printf("Your Mortgage is: $ %.2f", +mortgage);
     }
 }
 
