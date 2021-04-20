@@ -11,14 +11,26 @@ public class AFizzBuzz {
 
         // if (number % 5 == 0 && number % 3 == 0)
         //     System.out.println("FIZZBUZZ");
-        // else if(number % 5 == 0 )
+        // else if(number % 5 == 0)
         //     System.out.println("fizz");
         // else if(number % 3 == 0)
         //     System.out.println("buzz");
         // else
         //     System.out.println(number);
 
-            System.out.println(number % 5 == 0 && number % 3 == 0 ? "fizzbuzz" : number % 5 == 0 ? "fizz" : number % 3 == 0 ? "buzz" : number);
+        // Boolean fizzy = number % 5 == 0;
+        // Boolean buzzy = number % 3 == 0;
+        // Boolean fizzybuzzy = number % 5 == 0 && number % 3 == 0;
+        // if(fizzybuzzy)
+        //     System.out.println("FIZZBUZZ");
+        // else if(fizzy)
+        //     System.out.println("fizz");
+        // else if(buzzy)
+        //     System.out.println("buzz");
+        // else
+        //     System.out.println(number);
+
+        // System.out.println(number % 5 == 0 && number % 3 == 0 ? "fizzbuzz" : number % 5 == 0 ? "fizz" : number % 3 == 0 ? "buzz" : number);
     }
 }
 
