@@ -9,10 +9,11 @@ public class ReadingUserInput {
         byte age = scanner.nextByte();
         System.out.println("Your Age: " +age);
 
-        Scanner ss = new Scanner(System.in);
         System.out.print("Name: ");
-        String name = ss.nextLine().trim();
+        String name = scanner.nextLine().trim();
         System.out.println("Your Name: " +name);
+
+        scanner.close();
     }
 }
 
@@ -26,5 +27,3 @@ public class ReadingUserInput {
 // Then set whatever value to whatever variable (ex. byte age = ect.) and set it to store the ScannerVariable.nextToken (ex. scanner.nextByte)
 
 // Full example: Scanner scanner = new Scanner(System.in); byte age = scanner.nextByte(); System.out.println("You are " +age);
-
-//***NOTE: I do not know if it is best practice to use two Scanners. But as of 4/20/21 I don't know a better way.***
