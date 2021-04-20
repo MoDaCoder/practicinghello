@@ -5,3 +5,5 @@ public class TernaryOperator {
         System.out.println(className);
     }
 }
+
+// Best practice to try and use comparison, logical, and ternary operators before using if and else statements to keep code clean.
