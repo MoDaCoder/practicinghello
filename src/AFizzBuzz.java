@@ -30,7 +30,7 @@ public class AFizzBuzz {
         // else
         //     System.out.println(number);
 
-        // System.out.println(number % 5 == 0 && number % 3 == 0 ? "fizzbuzz" : number % 5 == 0 ? "fizz" : number % 3 == 0 ? "buzz" : number);
+        System.out.println(number % 5 == 0 && number % 3 == 0 ? "fizzbuzz" : number % 5 == 0 ? "fizz" : number % 3 == 0 ? "buzz" : number);
     }
 }
 
